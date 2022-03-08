@@ -19,7 +19,9 @@ import it.epicode.be.segreteriastudentirest.model.LoginResponse;
 import it.epicode.be.segreteriastudentirest.repository.UserRepository;
 import it.epicode.be.segreteriastudentirest.service.UserDetailsImpl;
 import it.epicode.be.segreteriastudentirest.util.JwtUtils;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j //logger
 @RestController
 @RequestMapping("/auth")
 public class AuthController {
@@ -35,7 +37,7 @@ public class AuthController {
 
 	@PostMapping("/login")
 	public ResponseEntity<?> authenticateUser(@RequestBody LoginRequest loginRequest) {
-
+		log.info("*** inizio autenticazione ***");
 		Authentication authentication = authenticationManager.authenticate(
 				new UsernamePasswordAuthenticationToken(loginRequest.getUserName(), loginRequest.getPassword()));
 		SecurityContextHolder.getContext().setAuthentication(authentication);
@@ -48,7 +50,7 @@ public class AuthController {
 
 		loginResponse.setToken(token);
 		loginResponse.setRoles(roles);
-
+		log.info("*** fine autenticazione ***");
 		return ResponseEntity.ok(loginResponse);
 	}
 

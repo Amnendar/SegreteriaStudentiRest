@@ -365,4 +365,551 @@
 ""2022-03-08 [RMI TCP Connection(14)-127.0.0.1] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
 ""2022-03-08 [RMI TCP Connection(14)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 ""2022-03-08 [RMI TCP Connection(14)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-03-08 [restartedMain] INFO  i.e.b.s.SegreteriaStudentiRestApplication - Starting SegreteriaStudentiRestApplication using Java 16.0.2 on DESKTOP-COCPM74 with PID 2040 (C:\Java\Workspace\SegreteriaStudentiRest\target\classes started by ant-1 in C:\Java\Workspace\SegreteriaStudentiRest)
+""2022-03-08 [restartedMain] DEBUG i.e.b.s.SegreteriaStudentiRestApplication - Running with Spring Boot v2.6.4, Spring v5.3.16
+""2022-03-08 [restartedMain] INFO  i.e.b.s.SegreteriaStudentiRestApplication - No active profile set, falling back to 1 default profile: "default"
+""2022-03-08 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-03-08 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-03-08 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-08 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36 ms. Found 4 JPA repository interfaces.
+""2022-03-08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2022-03-08 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-03-08 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+""2022-03-08 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-03-08 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 918 ms
+""2022-03-08 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-03-08 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-03-08 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2'. Database available at 'jdbc:h2:mem:gestionesegreteria'
+""2022-03-08 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-08 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-08 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-03-08 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-03-08 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-03-08 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-08 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [restartedMain] DEBUG i.e.b.s.util.AuthTokenFilter - Filter 'authenticationJwtTokenFilter' configured for use
+""2022-03-08 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+""2022-03-08 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-03-08 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2022-03-08 [restartedMain] INFO  i.e.b.s.SegreteriaStudentiRestApplication - Started SegreteriaStudentiRestApplication in 2.761 seconds (JVM running for 3.242)
+""2022-03-08 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2022-03-08 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [RMI TCP Connection(2)-127.0.0.1] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-03-08 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-03-08 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-03-08 [main] INFO  i.e.b.s.StudenteControllerTest - Starting StudenteControllerTest using Java 16.0.2 on DESKTOP-COCPM74 with PID 10084 (started by ant-1 in C:\Java\Workspace\SegreteriaStudentiRest)
+""2022-03-08 [main] DEBUG i.e.b.s.StudenteControllerTest - Running with Spring Boot v2.6.4, Spring v5.3.16
+""2022-03-08 [main] INFO  i.e.b.s.StudenteControllerTest - No active profile set, falling back to 1 default profile: "default"
+""2022-03-08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52 ms. Found 4 JPA repository interfaces.
+""2022-03-08 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-08 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-03-08 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-03-08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-03-08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-03-08 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-03-08 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-08 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-08 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+""2022-03-08 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2'. Database available at 'jdbc:h2:mem:gestionesegreteria'
+""2022-03-08 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+""2022-03-08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+""2022-03-08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+""2022-03-08 [main] INFO  i.e.b.s.StudenteControllerTest - Started StudenteControllerTest in 3.574 seconds (JVM running for 4.58)
+""2022-03-08 [main] INFO  i.e.b.s.c.StudenteController - *** inizio saveStudente ***
+""2022-03-08 [main] INFO  i.e.b.s.c.StudenteController - *** fine saveCorso ***
+""2022-03-08 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-03-08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-03-08 [main] INFO  i.e.b.s.AuthControllerTest - Starting AuthControllerTest using Java 16.0.2 on DESKTOP-COCPM74 with PID 3124 (started by ant-1 in C:\Java\Workspace\SegreteriaStudentiRest)
+""2022-03-08 [main] DEBUG i.e.b.s.AuthControllerTest - Running with Spring Boot v2.6.4, Spring v5.3.16
+""2022-03-08 [main] INFO  i.e.b.s.AuthControllerTest - No active profile set, falling back to 1 default profile: "default"
+""2022-03-08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51 ms. Found 4 JPA repository interfaces.
+""2022-03-08 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-08 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-03-08 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-03-08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-03-08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-03-08 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-03-08 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-08 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-08 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+""2022-03-08 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2'. Database available at 'jdbc:h2:mem:gestionesegreteria'
+""2022-03-08 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+""2022-03-08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+""2022-03-08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+""2022-03-08 [main] INFO  i.e.b.s.AuthControllerTest - Started AuthControllerTest in 3.515 seconds (JVM running for 4.242)
+""2022-03-08 [main] INFO  i.e.b.s.controller.AuthController - *** inizio autenticazione ***
+""2022-03-08 [main] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<?> it.epicode.be.segreteriastudentirest.controller.AuthController.authenticateUser(it.epicode.be.segreteriastudentirest.model.LoginRequest)]
+""2022-03-08 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-03-08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-03-08 [main] INFO  i.e.b.s.AuthControllerTest - Starting AuthControllerTest using Java 16.0.2 on DESKTOP-COCPM74 with PID 7860 (started by ant-1 in C:\Java\Workspace\SegreteriaStudentiRest)
+""2022-03-08 [main] DEBUG i.e.b.s.AuthControllerTest - Running with Spring Boot v2.6.4, Spring v5.3.16
+""2022-03-08 [main] INFO  i.e.b.s.AuthControllerTest - No active profile set, falling back to 1 default profile: "default"
+""2022-03-08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 56 ms. Found 4 JPA repository interfaces.
+""2022-03-08 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-08 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-03-08 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-03-08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-03-08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-03-08 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-03-08 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-08 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-08 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+""2022-03-08 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2'. Database available at 'jdbc:h2:mem:gestionesegreteria'
+""2022-03-08 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+""2022-03-08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+""2022-03-08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+""2022-03-08 [main] INFO  i.e.b.s.AuthControllerTest - Started AuthControllerTest in 3.501 seconds (JVM running for 4.241)
+""2022-03-08 [main] INFO  i.e.b.s.controller.AuthController - *** inizio autenticazione ***
+""2022-03-08 [main] INFO  i.e.b.s.controller.AuthController - *** fine autenticazione ***
+""2022-03-08 [main] ERROR i.e.b.s.util.JwtUtils - Invalid JWT signature: JWT strings must contain exactly 2 period characters. Found: 0
+""2022-03-08 [main] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<?> it.epicode.be.segreteriastudentirest.controller.AuthController.authenticateUser(it.epicode.be.segreteriastudentirest.model.LoginRequest)]
+""2022-03-08 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-03-08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-03-08 [main] INFO  i.e.b.s.AuthControllerTest - Starting AuthControllerTest using Java 16.0.2 on DESKTOP-COCPM74 with PID 7404 (started by ant-1 in C:\Java\Workspace\SegreteriaStudentiRest)
+""2022-03-08 [main] DEBUG i.e.b.s.AuthControllerTest - Running with Spring Boot v2.6.4, Spring v5.3.16
+""2022-03-08 [main] INFO  i.e.b.s.AuthControllerTest - No active profile set, falling back to 1 default profile: "default"
+""2022-03-08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52 ms. Found 4 JPA repository interfaces.
+""2022-03-08 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-08 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-03-08 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-03-08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-03-08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-03-08 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-03-08 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-08 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-08 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+""2022-03-08 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2'. Database available at 'jdbc:h2:mem:gestionesegreteria'
+""2022-03-08 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+""2022-03-08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+""2022-03-08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+""2022-03-08 [main] INFO  i.e.b.s.AuthControllerTest - Started AuthControllerTest in 3.544 seconds (JVM running for 4.278)
+""2022-03-08 [main] INFO  i.e.b.s.controller.AuthController - *** inizio autenticazione ***
+""2022-03-08 [main] INFO  i.e.b.s.controller.AuthController - *** fine autenticazione ***
+""2022-03-08 [main] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<?> it.epicode.be.segreteriastudentirest.controller.AuthController.authenticateUser(it.epicode.be.segreteriastudentirest.model.LoginRequest)]
+""2022-03-08 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-03-08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-03-08 [main] INFO  i.e.b.s.AuthControllerTest - Starting AuthControllerTest using Java 16.0.2 on DESKTOP-COCPM74 with PID 10080 (started by ant-1 in C:\Java\Workspace\SegreteriaStudentiRest)
+""2022-03-08 [main] DEBUG i.e.b.s.AuthControllerTest - Running with Spring Boot v2.6.4, Spring v5.3.16
+""2022-03-08 [main] INFO  i.e.b.s.AuthControllerTest - No active profile set, falling back to 1 default profile: "default"
+""2022-03-08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 57 ms. Found 4 JPA repository interfaces.
+""2022-03-08 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-08 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-03-08 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-03-08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-03-08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-03-08 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-03-08 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-08 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-08 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+""2022-03-08 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2'. Database available at 'jdbc:h2:mem:gestionesegreteria'
+""2022-03-08 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+""2022-03-08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+""2022-03-08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+""2022-03-08 [main] INFO  i.e.b.s.AuthControllerTest - Started AuthControllerTest in 4.487 seconds (JVM running for 5.564)
+""2022-03-08 [main] INFO  i.e.b.s.controller.AuthController - *** inizio autenticazione ***
+""2022-03-08 [main] INFO  i.e.b.s.controller.AuthController - *** fine autenticazione ***
+""2022-03-08 [main] INFO  i.e.b.s.AuthControllerTest - Starting AuthControllerTest using Java 16.0.2 on DESKTOP-COCPM74 with PID 16672 (started by ant-1 in C:\Java\Workspace\SegreteriaStudentiRest)
+""2022-03-08 [main] DEBUG i.e.b.s.AuthControllerTest - Running with Spring Boot v2.6.4, Spring v5.3.16
+""2022-03-08 [main] INFO  i.e.b.s.AuthControllerTest - No active profile set, falling back to 1 default profile: "default"
+""2022-03-08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55 ms. Found 4 JPA repository interfaces.
+""2022-03-08 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-08 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-03-08 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-03-08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-03-08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-03-08 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-03-08 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-08 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-08 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+""2022-03-08 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2'. Database available at 'jdbc:h2:mem:gestionesegreteria'
+""2022-03-08 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+""2022-03-08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+""2022-03-08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+""2022-03-08 [main] INFO  i.e.b.s.AuthControllerTest - Started AuthControllerTest in 3.584 seconds (JVM running for 4.317)
+""2022-03-08 [main] INFO  i.e.b.s.controller.AuthController - *** inizio autenticazione ***
+""2022-03-08 [main] INFO  i.e.b.s.controller.AuthController - *** fine autenticazione ***
+""2022-03-08 [main] ERROR i.e.b.s.util.JwtUtils - Invalid JWT signature: Unable to read JSON value: Ș[Ȏ���LL��
+""2022-03-08 [main] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<?> it.epicode.be.segreteriastudentirest.controller.AuthController.authenticateUser(it.epicode.be.segreteriastudentirest.model.LoginRequest)]
+""2022-03-08 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-03-08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-03-08 [main] INFO  i.e.b.s.CorsoDiLaureaControllerTest - Starting CorsoDiLaureaControllerTest using Java 16.0.2 on DESKTOP-COCPM74 with PID 5084 (started by ant-1 in C:\Java\Workspace\SegreteriaStudentiRest)
+""2022-03-08 [main] DEBUG i.e.b.s.CorsoDiLaureaControllerTest - Running with Spring Boot v2.6.4, Spring v5.3.16
+""2022-03-08 [main] INFO  i.e.b.s.CorsoDiLaureaControllerTest - No active profile set, falling back to 1 default profile: "default"
+""2022-03-08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51 ms. Found 4 JPA repository interfaces.
+""2022-03-08 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-08 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-03-08 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-03-08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-03-08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-03-08 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-03-08 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-08 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-08 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+""2022-03-08 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2'. Database available at 'jdbc:h2:mem:gestionesegreteria'
+""2022-03-08 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+""2022-03-08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+""2022-03-08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+""2022-03-08 [main] INFO  i.e.b.s.CorsoDiLaureaControllerTest - Started CorsoDiLaureaControllerTest in 3.514 seconds (JVM running for 4.279)
+""2022-03-08 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-03-08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-03-08 [main] INFO  i.e.b.s.CorsoDiLaureaControllerTest - Starting CorsoDiLaureaControllerTest using Java 16.0.2 on DESKTOP-COCPM74 with PID 7712 (started by ant-1 in C:\Java\Workspace\SegreteriaStudentiRest)
+""2022-03-08 [main] DEBUG i.e.b.s.CorsoDiLaureaControllerTest - Running with Spring Boot v2.6.4, Spring v5.3.16
+""2022-03-08 [main] INFO  i.e.b.s.CorsoDiLaureaControllerTest - No active profile set, falling back to 1 default profile: "default"
+""2022-03-08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55 ms. Found 4 JPA repository interfaces.
+""2022-03-08 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-08 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-03-08 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-03-08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-03-08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-03-08 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-03-08 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-08 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-08 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+""2022-03-08 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2'. Database available at 'jdbc:h2:mem:gestionesegreteria'
+""2022-03-08 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+""2022-03-08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+""2022-03-08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+""2022-03-08 [main] INFO  i.e.b.s.CorsoDiLaureaControllerTest - Started CorsoDiLaureaControllerTest in 3.587 seconds (JVM running for 4.326)
+""2022-03-08 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-03-08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-03-08 [main] INFO  i.e.b.s.CorsoDiLaureaControllerTest - Starting CorsoDiLaureaControllerTest using Java 16.0.2 on DESKTOP-COCPM74 with PID 7488 (started by ant-1 in C:\Java\Workspace\SegreteriaStudentiRest)
+""2022-03-08 [main] DEBUG i.e.b.s.CorsoDiLaureaControllerTest - Running with Spring Boot v2.6.4, Spring v5.3.16
+""2022-03-08 [main] INFO  i.e.b.s.CorsoDiLaureaControllerTest - No active profile set, falling back to 1 default profile: "default"
+""2022-03-08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 4 JPA repository interfaces.
+""2022-03-08 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-08 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-03-08 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-03-08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-03-08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-03-08 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-03-08 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-08 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-08 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+""2022-03-08 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2'. Database available at 'jdbc:h2:mem:gestionesegreteria'
+""2022-03-08 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+""2022-03-08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+""2022-03-08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+""2022-03-08 [main] INFO  i.e.b.s.CorsoDiLaureaControllerTest - Started CorsoDiLaureaControllerTest in 3.578 seconds (JVM running for 4.319)
+""2022-03-08 [main] INFO  i.e.b.s.c.CorsoDiLaureaController - *** inizio getAllCorsi ***
+""2022-03-08 [main] INFO  i.e.b.s.c.CorsoDiLaureaController - *** inizio saveCorso ***
+""2022-03-08 [main] INFO  i.e.b.s.c.CorsoDiLaureaController - *** fine saveCorso ***
+""2022-03-08 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-03-08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-03-08 [main] INFO  i.e.b.s.CorsoDiLaureaControllerTest - Starting CorsoDiLaureaControllerTest using Java 16.0.2 on DESKTOP-COCPM74 with PID 15104 (started by ant-1 in C:\Java\Workspace\SegreteriaStudentiRest)
+""2022-03-08 [main] DEBUG i.e.b.s.CorsoDiLaureaControllerTest - Running with Spring Boot v2.6.4, Spring v5.3.16
+""2022-03-08 [main] INFO  i.e.b.s.CorsoDiLaureaControllerTest - No active profile set, falling back to 1 default profile: "default"
+""2022-03-08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55 ms. Found 4 JPA repository interfaces.
+""2022-03-08 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-08 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-03-08 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-03-08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-03-08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-03-08 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-03-08 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-08 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-08 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+""2022-03-08 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2'. Database available at 'jdbc:h2:mem:gestionesegreteria'
+""2022-03-08 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+""2022-03-08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+""2022-03-08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+""2022-03-08 [main] INFO  i.e.b.s.CorsoDiLaureaControllerTest - Started CorsoDiLaureaControllerTest in 3.557 seconds (JVM running for 4.323)
+""2022-03-08 [main] INFO  i.e.b.s.c.CorsoDiLaureaController - *** inizio getAllCorsi ***
+""2022-03-08 [main] INFO  i.e.b.s.c.CorsoDiLaureaController - *** inizio saveCorso ***
+""2022-03-08 [main] INFO  i.e.b.s.c.CorsoDiLaureaController - *** fine saveCorso ***
+""2022-03-08 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-03-08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-03-08 [main] INFO  i.e.b.s.CorsoDiLaureaControllerTest - Starting CorsoDiLaureaControllerTest using Java 16.0.2 on DESKTOP-COCPM74 with PID 5424 (started by ant-1 in C:\Java\Workspace\SegreteriaStudentiRest)
+""2022-03-08 [main] DEBUG i.e.b.s.CorsoDiLaureaControllerTest - Running with Spring Boot v2.6.4, Spring v5.3.16
+""2022-03-08 [main] INFO  i.e.b.s.CorsoDiLaureaControllerTest - No active profile set, falling back to 1 default profile: "default"
+""2022-03-08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 4 JPA repository interfaces.
+""2022-03-08 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-08 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-03-08 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-03-08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-03-08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-03-08 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-03-08 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-08 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-08 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+""2022-03-08 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2'. Database available at 'jdbc:h2:mem:gestionesegreteria'
+""2022-03-08 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+""2022-03-08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+""2022-03-08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+""2022-03-08 [main] INFO  i.e.b.s.CorsoDiLaureaControllerTest - Started CorsoDiLaureaControllerTest in 3.582 seconds (JVM running for 4.32)
+""2022-03-08 [main] INFO  i.e.b.s.c.CorsoDiLaureaController - *** inizio getAllCorsi ***
+""2022-03-08 [main] INFO  i.e.b.s.c.CorsoDiLaureaController - *** inizio saveCorso ***
+""2022-03-08 [main] INFO  i.e.b.s.c.CorsoDiLaureaController - *** fine saveCorso ***
+""2022-03-08 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-03-08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-03-08 [main] INFO  i.e.b.s.CorsoDiLaureaControllerTest - Starting CorsoDiLaureaControllerTest using Java 16.0.2 on DESKTOP-COCPM74 with PID 17968 (started by ant-1 in C:\Java\Workspace\SegreteriaStudentiRest)
+""2022-03-08 [main] DEBUG i.e.b.s.CorsoDiLaureaControllerTest - Running with Spring Boot v2.6.4, Spring v5.3.16
+""2022-03-08 [main] INFO  i.e.b.s.CorsoDiLaureaControllerTest - No active profile set, falling back to 1 default profile: "default"
+""2022-03-08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 4 JPA repository interfaces.
+""2022-03-08 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-08 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-03-08 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-03-08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-03-08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-03-08 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-03-08 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-08 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-08 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+""2022-03-08 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2'. Database available at 'jdbc:h2:mem:gestionesegreteria'
+""2022-03-08 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+""2022-03-08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+""2022-03-08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+""2022-03-08 [main] INFO  i.e.b.s.CorsoDiLaureaControllerTest - Started CorsoDiLaureaControllerTest in 3.571 seconds (JVM running for 4.305)
+""2022-03-08 [main] INFO  i.e.b.s.c.CorsoDiLaureaController - *** inizio getAllCorsi ***
+""2022-03-08 [main] INFO  i.e.b.s.c.CorsoDiLaureaController - *** inizio saveCorso ***
+""2022-03-08 [main] INFO  i.e.b.s.c.CorsoDiLaureaController - *** fine saveCorso ***
+""2022-03-08 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-03-08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-03-08 [main] INFO  i.e.b.s.StudenteControllerTest - Starting StudenteControllerTest using Java 16.0.2 on DESKTOP-COCPM74 with PID 5532 (started by ant-1 in C:\Java\Workspace\SegreteriaStudentiRest)
+""2022-03-08 [main] DEBUG i.e.b.s.StudenteControllerTest - Running with Spring Boot v2.6.4, Spring v5.3.16
+""2022-03-08 [main] INFO  i.e.b.s.StudenteControllerTest - No active profile set, falling back to 1 default profile: "default"
+""2022-03-08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 56 ms. Found 4 JPA repository interfaces.
+""2022-03-08 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-08 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-03-08 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-03-08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-03-08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-03-08 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-03-08 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-08 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-08 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+""2022-03-08 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2'. Database available at 'jdbc:h2:mem:gestionesegreteria'
+""2022-03-08 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+""2022-03-08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+""2022-03-08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+""2022-03-08 [main] INFO  i.e.b.s.StudenteControllerTest - Started StudenteControllerTest in 3.575 seconds (JVM running for 4.341)
+""2022-03-08 [main] INFO  i.e.b.s.c.StudenteController - *** inizio deleteStudente ***
+""2022-03-08 [main] INFO  i.e.b.s.c.StudenteController - *** fine deleteStudente ***
+""2022-03-08 [main] INFO  i.e.b.s.c.StudenteController - *** inizio getAllStudenti ***
+""2022-03-08 [main] INFO  i.e.b.s.c.StudenteController - *** studenti non trovati ***
+""2022-03-08 [main] INFO  i.e.b.s.c.StudenteController - *** inizio saveStudente ***
+""2022-03-08 [main] INFO  i.e.b.s.c.StudenteController - *** fine saveCorso ***
+""2022-03-08 [main] INFO  i.e.b.s.c.StudenteController - *** inizio updateStudente ***
+""2022-03-08 [main] INFO  i.e.b.s.c.StudenteController - *** fine updateCorso ***
+""2022-03-08 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-03-08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-03-08 [main] INFO  i.e.b.s.StudenteControllerTest - Starting StudenteControllerTest using Java 16.0.2 on DESKTOP-COCPM74 with PID 10252 (started by ant-1 in C:\Java\Workspace\SegreteriaStudentiRest)
+""2022-03-08 [main] DEBUG i.e.b.s.StudenteControllerTest - Running with Spring Boot v2.6.4, Spring v5.3.16
+""2022-03-08 [main] INFO  i.e.b.s.StudenteControllerTest - No active profile set, falling back to 1 default profile: "default"
+""2022-03-08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 53 ms. Found 4 JPA repository interfaces.
+""2022-03-08 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-08 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-03-08 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-03-08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-03-08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-03-08 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-03-08 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-08 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-08 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+""2022-03-08 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2'. Database available at 'jdbc:h2:mem:gestionesegreteria'
+""2022-03-08 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+""2022-03-08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+""2022-03-08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+""2022-03-08 [main] INFO  i.e.b.s.StudenteControllerTest - Started StudenteControllerTest in 3.547 seconds (JVM running for 4.25)
+""2022-03-08 [main] INFO  i.e.b.s.c.StudenteController - *** inizio getAllStudenti ***
+""2022-03-08 [main] INFO  i.e.b.s.c.StudenteController - *** inizio saveStudente ***
+""2022-03-08 [main] INFO  i.e.b.s.c.StudenteController - *** fine saveCorso ***
+""2022-03-08 [main] INFO  i.e.b.s.c.StudenteController - *** inizio updateStudente ***
+""2022-03-08 [main] INFO  i.e.b.s.c.StudenteController - *** fine updateCorso ***
+""2022-03-08 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-03-08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-03-08 [main] INFO  i.e.b.s.StudenteControllerTest - Starting StudenteControllerTest using Java 16.0.2 on DESKTOP-COCPM74 with PID 12128 (started by ant-1 in C:\Java\Workspace\SegreteriaStudentiRest)
+""2022-03-08 [main] DEBUG i.e.b.s.StudenteControllerTest - Running with Spring Boot v2.6.4, Spring v5.3.16
+""2022-03-08 [main] INFO  i.e.b.s.StudenteControllerTest - No active profile set, falling back to 1 default profile: "default"
+""2022-03-08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 54 ms. Found 4 JPA repository interfaces.
+""2022-03-08 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-08 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-03-08 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-03-08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-03-08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-03-08 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-03-08 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-08 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-08 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+""2022-03-08 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2'. Database available at 'jdbc:h2:mem:gestionesegreteria'
+""2022-03-08 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+""2022-03-08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+""2022-03-08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+""2022-03-08 [main] INFO  i.e.b.s.StudenteControllerTest - Started StudenteControllerTest in 3.563 seconds (JVM running for 4.305)
+""2022-03-08 [main] INFO  i.e.b.s.c.StudenteController - *** inizio deleteStudente ***
+""2022-03-08 [main] INFO  i.e.b.s.c.StudenteController - *** fine deleteStudente ***
+""2022-03-08 [main] INFO  i.e.b.s.c.StudenteController - *** inizio getAllStudenti ***
+""2022-03-08 [main] INFO  i.e.b.s.c.StudenteController - *** studenti non trovati ***
+""2022-03-08 [main] INFO  i.e.b.s.c.StudenteController - *** inizio saveStudente ***
+""2022-03-08 [main] INFO  i.e.b.s.c.StudenteController - *** fine saveCorso ***
+""2022-03-08 [main] INFO  i.e.b.s.c.StudenteController - *** inizio updateStudente ***
+""2022-03-08 [main] INFO  i.e.b.s.c.StudenteController - *** fine updateCorso ***
+""2022-03-08 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-03-08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-03-08 [main] INFO  i.e.b.s.StudenteControllerTest - Starting StudenteControllerTest using Java 16.0.2 on DESKTOP-COCPM74 with PID 1392 (started by ant-1 in C:\Java\Workspace\SegreteriaStudentiRest)
+""2022-03-08 [main] DEBUG i.e.b.s.StudenteControllerTest - Running with Spring Boot v2.6.4, Spring v5.3.16
+""2022-03-08 [main] INFO  i.e.b.s.StudenteControllerTest - No active profile set, falling back to 1 default profile: "default"
+""2022-03-08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 54 ms. Found 4 JPA repository interfaces.
+""2022-03-08 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-08 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-03-08 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-03-08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-03-08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-03-08 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-03-08 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-08 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-08 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+""2022-03-08 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2'. Database available at 'jdbc:h2:mem:gestionesegreteria'
+""2022-03-08 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+""2022-03-08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+""2022-03-08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+""2022-03-08 [main] INFO  i.e.b.s.StudenteControllerTest - Started StudenteControllerTest in 3.714 seconds (JVM running for 4.52)
+""2022-03-08 [main] INFO  i.e.b.s.StudenteControllerTest - *** STARTUP ***
+""2022-03-08 [main] INFO  i.e.b.s.c.StudenteController - *** inizio deleteStudente ***
+""2022-03-08 [main] INFO  i.e.b.s.c.StudenteController - *** fine deleteStudente ***
+""2022-03-08 [main] INFO  i.e.b.s.StudenteControllerTest - *** STARTUP ***
+""2022-03-08 [main] INFO  i.e.b.s.c.StudenteController - *** inizio getAllStudenti ***
+""2022-03-08 [main] INFO  i.e.b.s.c.StudenteController - *** studenti non trovati ***
+""2022-03-08 [main] INFO  i.e.b.s.StudenteControllerTest - *** STARTUP ***
+""2022-03-08 [main] INFO  i.e.b.s.c.StudenteController - *** inizio saveStudente ***
+""2022-03-08 [main] INFO  i.e.b.s.c.StudenteController - *** fine saveCorso ***
+""2022-03-08 [main] INFO  i.e.b.s.StudenteControllerTest - *** STARTUP ***
+""2022-03-08 [main] INFO  i.e.b.s.c.StudenteController - *** inizio updateStudente ***
+""2022-03-08 [main] INFO  i.e.b.s.c.StudenteController - *** fine updateCorso ***
+""2022-03-08 [main] INFO  i.e.b.s.StudenteControllerTest - *** STARTUP ***
+""2022-03-08 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-03-08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-03-08 [main] INFO  i.e.b.s.CorsoDiLaureaControllerTest - Starting CorsoDiLaureaControllerTest using Java 16.0.2 on DESKTOP-COCPM74 with PID 7992 (started by ant-1 in C:\Java\Workspace\SegreteriaStudentiRest)
+""2022-03-08 [main] DEBUG i.e.b.s.CorsoDiLaureaControllerTest - Running with Spring Boot v2.6.4, Spring v5.3.16
+""2022-03-08 [main] INFO  i.e.b.s.CorsoDiLaureaControllerTest - No active profile set, falling back to 1 default profile: "default"
+""2022-03-08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 59 ms. Found 4 JPA repository interfaces.
+""2022-03-08 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-08 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-03-08 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-03-08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-03-08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-03-08 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-03-08 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-08 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-08 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+""2022-03-08 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2'. Database available at 'jdbc:h2:mem:gestionesegreteria'
+""2022-03-08 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+""2022-03-08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+""2022-03-08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+""2022-03-08 [main] INFO  i.e.b.s.CorsoDiLaureaControllerTest - Started CorsoDiLaureaControllerTest in 3.811 seconds (JVM running for 4.567)
+""2022-03-08 [main] INFO  i.e.b.s.c.CorsoDiLaureaController - *** inizio getAllCorsi ***
+""2022-03-08 [main] INFO  i.e.b.s.c.CorsoDiLaureaController - *** inizio updateCorso ***
+""2022-03-08 [main] INFO  i.e.b.s.c.CorsoDiLaureaController - *** fine updateCorso ***
+""2022-03-08 [main] INFO  i.e.b.s.c.CorsoDiLaureaController - *** inizio saveCorso ***
+""2022-03-08 [main] INFO  i.e.b.s.c.CorsoDiLaureaController - *** fine saveCorso ***
+""2022-03-08 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-03-08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-03-08 [main] INFO  i.e.b.s.CorsoDiLaureaControllerTest - Starting CorsoDiLaureaControllerTest using Java 16.0.2 on DESKTOP-COCPM74 with PID 10588 (started by ant-1 in C:\Java\Workspace\SegreteriaStudentiRest)
+""2022-03-08 [main] DEBUG i.e.b.s.CorsoDiLaureaControllerTest - Running with Spring Boot v2.6.4, Spring v5.3.16
+""2022-03-08 [main] INFO  i.e.b.s.CorsoDiLaureaControllerTest - No active profile set, falling back to 1 default profile: "default"
+""2022-03-08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 53 ms. Found 4 JPA repository interfaces.
+""2022-03-08 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-08 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-03-08 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-03-08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-03-08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-03-08 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-03-08 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-08 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-08 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+""2022-03-08 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2'. Database available at 'jdbc:h2:mem:gestionesegreteria'
+""2022-03-08 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+""2022-03-08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+""2022-03-08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+""2022-03-08 [main] INFO  i.e.b.s.CorsoDiLaureaControllerTest - Started CorsoDiLaureaControllerTest in 3.793 seconds (JVM running for 4.566)
+""2022-03-08 [main] INFO  i.e.b.s.c.CorsoDiLaureaController - *** inizio getCorsoById ***
+""2022-03-08 [main] INFO  i.e.b.s.c.CorsoDiLaureaController - *** fine getCorsoById ***
+""2022-03-08 [main] INFO  i.e.b.s.c.CorsoDiLaureaController - *** inizio getAllCorsi ***
+""2022-03-08 [main] INFO  i.e.b.s.c.CorsoDiLaureaController - *** inizio updateCorso ***
+""2022-03-08 [main] INFO  i.e.b.s.c.CorsoDiLaureaController - *** fine updateCorso ***
+""2022-03-08 [main] INFO  i.e.b.s.c.CorsoDiLaureaController - *** inizio saveCorso ***
+""2022-03-08 [main] INFO  i.e.b.s.c.CorsoDiLaureaController - *** fine saveCorso ***
+""2022-03-08 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-03-08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2022-03-08 [main] INFO  i.e.b.s.CorsoDiLaureaControllerTest - Starting CorsoDiLaureaControllerTest using Java 16.0.2 on DESKTOP-COCPM74 with PID 15368 (started by ant-1 in C:\Java\Workspace\SegreteriaStudentiRest)
+""2022-03-08 [main] DEBUG i.e.b.s.CorsoDiLaureaControllerTest - Running with Spring Boot v2.6.4, Spring v5.3.16
+""2022-03-08 [main] INFO  i.e.b.s.CorsoDiLaureaControllerTest - No active profile set, falling back to 1 default profile: "default"
+""2022-03-08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-03-08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50 ms. Found 4 JPA repository interfaces.
+""2022-03-08 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-03-08 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+""2022-03-08 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-03-08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2022-03-08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2022-03-08 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-03-08 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-03-08 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-03-08 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will not secure any request
+""2022-03-08 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2'. Database available at 'jdbc:h2:mem:gestionesegreteria'
+""2022-03-08 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+""2022-03-08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+""2022-03-08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+""2022-03-08 [main] INFO  i.e.b.s.CorsoDiLaureaControllerTest - Started CorsoDiLaureaControllerTest in 3.827 seconds (JVM running for 4.599)
+""2022-03-08 [main] INFO  i.e.b.s.c.CorsoDiLaureaController - *** inizio getCorsoById ***
+""2022-03-08 [main] INFO  i.e.b.s.c.CorsoDiLaureaController - *** inizio getAllCorsi ***
+""2022-03-08 [main] INFO  i.e.b.s.c.CorsoDiLaureaController - *** inizio updateCorso ***
+""2022-03-08 [main] INFO  i.e.b.s.c.CorsoDiLaureaController - *** fine updateCorso ***
+""2022-03-08 [main] INFO  i.e.b.s.c.CorsoDiLaureaController - *** inizio saveCorso ***
+""2022-03-08 [main] INFO  i.e.b.s.c.CorsoDiLaureaController - *** fine saveCorso ***
+""2022-03-08 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-03-08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2022-03-08 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
 "
