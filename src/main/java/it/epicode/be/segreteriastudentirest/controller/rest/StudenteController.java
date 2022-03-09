@@ -1,4 +1,4 @@
-package it.epicode.be.segreteriastudentirest.controller;
+package it.epicode.be.segreteriastudentirest.controller.rest;
 
 import java.util.Optional;
 

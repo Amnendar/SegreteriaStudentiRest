@@ -1,4 +1,4 @@
-package it.epicode.be.segreteriastudentirest.controller;
+package it.epicode.be.segreteriastudentirest.controller.security;
 
 import java.util.List;
 import java.util.stream.Collectors;
