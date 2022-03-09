@@ -37,4 +37,12 @@ public class CorsoDiLaurea {
 	@JoinTable(name = "docenti_corsi", joinColumns = @JoinColumn(name = "corso_id"), inverseJoinColumns = @JoinColumn(name = "docente_id")) 
 	private List<Docente> docenti;
 
+	@Override
+	public String toString() {
+		return "CorsoDiLaurea [id=" + id + ", codice=" + codice + ", numeroEsami=" + numeroEsami + ", nome=" + nome
+				+ ", indirizzo=" + indirizzo + "]";
+	}
+
+	
+	
 }

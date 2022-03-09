@@ -28,7 +28,7 @@
 
 		</thead>
 		<!-- th prende la collection e la cicla per tutti gli elementi, a runtime toglie i th: e mette i dati effettivi -->
-		<div th:each="c : ${dummydb.getCorsi()}">
+		<div th:each="c : ${corsi}">
 		<tbody>
 			<tr>
 
@@ -36,8 +36,8 @@
 				<td th:text="${c.getNome()}"></td>
 				<td th:text="${c.getIndirizzo()}"></td>
 				<td th:text="${c.getNumeroEsami()}"></td>
-				<td><a th:href="@{/corsi/formaggiornacorso/{codice}(codice=${c.getCodice()})}">Aggiorna</a></td>
-				<td><a th:href="@{/corsi/eliminacorso/{codice}(codice=${c.getCodice()})}" onclick="return confirm('Sei sicuro di voler eliminare questo elemento?')">Elimina</a></td>
+<!-- 				<td><a th:href="@{/corsi/formaggiornacorso/{codice}(codice=${c.getCodice()})}">Aggiorna</a></td> -->
+<!-- 				<td><a th:href="@{/corsi/eliminacorso/{codice}(codice=${c.getCodice()})}" onclick="return confirm('Sei sicuro di voler eliminare questo elemento?')">Elimina</a></td> -->
 
 			</tr>
 		</tbody>

@@ -33,4 +33,12 @@ public class Studente {
 	@OneToOne(mappedBy = "studente")//child side che deve puntare al nome della variabile
 	private Libretto libretto;
 
+	@Override
+	public String toString() {
+		return "Studente [id=" + id + ", nome=" + nome + ", cognome=" + cognome + ", indirizzo=" + indirizzo
+				+ ", citta=" + citta + ", email=" + email  + "]";
+	}
+	
+	
+
 }
