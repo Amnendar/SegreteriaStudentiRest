@@ -26,7 +26,7 @@ public class Studente {
 	private String citta;
 	private String email;
 
-	@ManyToOne(cascade = {CascadeType.PERSIST,CascadeType.MERGE})
+	@ManyToOne
 	@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
 	private CorsoDiLaurea corsoDiLaurea;
 	

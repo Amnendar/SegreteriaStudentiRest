@@ -53,24 +53,7 @@ public class AddUserSpringRunner implements CommandLineRunner {
 		roleRepository.save(role);
 		userRepository.save(user);
 		
-		CorsoDiLaurea corso = new CorsoDiLaurea();
-		Studente studente = new Studente();
-		List<Studente> studenti = new ArrayList<Studente>();
 		
-		corso.setCodice("A12");
-		corso.setIndirizzo("Via Nazionale 15");
-		corso.setNome("Ingegneria gestionale");
-		corso.setNumeroEsami(12);
-		corso.setStudenti(studenti);
-		
-		studente.setCitta("Milano");
-		studente.setCognome("Banfi");
-		studente.setCorsoDiLaurea(corso);
-		studente.setEmail("ciao@gmail.com");
-		studente.setIndirizzo("Via Bologna 63");
-		studente.setNome("Tiberio");
-		
-		studenteRepository.save(studente);
 		
 
 	}
