@@ -92,11 +92,11 @@ public class StudenteController {
 	@GetMapping("/studentebylibretto/{id}")
 	public ResponseEntity<Studente> findStudenteByLibrettoId(@PathVariable Long id){
 		Optional<Studente> trovato = studenteService.findByLibrettoId(id);
-		if(trovato.isEmpty()) {
-			return new ResponseEntity<>(trovato.get(), HttpStatus.NO_CONTENT);
+		if(trovato.isPresent()) {
+			return new ResponseEntity<>(trovato.get(), HttpStatus.OK);
 		}
 		else {
-			return new ResponseEntity<>(trovato.get(), HttpStatus.OK);
+			return new ResponseEntity<>(trovato.get(), HttpStatus.NO_CONTENT);
 		}
 	}
 	
