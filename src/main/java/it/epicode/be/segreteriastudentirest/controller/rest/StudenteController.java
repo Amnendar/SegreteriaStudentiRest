@@ -77,4 +77,28 @@ public class StudenteController {
 		return new ResponseEntity<>(s, HttpStatus.OK);
 
 	}
+	
+	@GetMapping("/studentibycorso/{id}")
+	public ResponseEntity<Page<Studente>> findStudentiByCorso(@PathVariable Long id, Pageable pageable){
+		Page<Studente> pagina = studenteService.findByCorsoDiLaurea(id, pageable);
+		if(pagina.hasContent()) {
+			return new ResponseEntity<>(pagina, HttpStatus.OK);
+		}
+		else {
+			return new ResponseEntity<>(pagina, HttpStatus.NO_CONTENT);
+		}
+	}
+	
+	@GetMapping("/studentebylibretto/{id}")
+	public ResponseEntity<Studente> findStudenteByLibrettoId(@PathVariable Long id){
+		Optional<Studente> trovato = studenteService.findByLibrettoId(id);
+		if(trovato.isEmpty()) {
+			return new ResponseEntity<>(trovato.get(), HttpStatus.NO_CONTENT);
+		}
+		else {
+			return new ResponseEntity<>(trovato.get(), HttpStatus.OK);
+		}
+	}
+	
+	
 }
