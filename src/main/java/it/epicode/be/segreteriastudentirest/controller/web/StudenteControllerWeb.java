@@ -77,5 +77,33 @@ public class StudenteControllerWeb {
 		}
 	}
 	
+	@PostMapping("/aggiornastudente/{id}")
+	public String aggiornaStudente(@Valid Studente studente,@PathVariable Long id, BindingResult result, Model model) { //valid serve a verificare sui campi a livello di back end, BindingResult serve a vedere il risultato della post
+		log.info("*** aggiornamento studente in corso ***");
+		if(result.hasErrors()) {
+			model.addAttribute("corsi", corsoservice.findAll());
+			return "aggiornaStudente";
+		}
+		studenteservice.update(studente, id); 
+		log.info("*** studente aggiornato ***");
+		return "redirect:/web/mostrastudenti";
+		
+	}
+	/*
+	 * TODO
+	 * IMPLEMENTARE CONTROLLO SU LIBRETTO ESISTENTE
+	 * 
+	 */
+	@GetMapping("/eliminastudente/{id}")
+	public String eliminaStudente(@PathVariable Long id, Model model) {
+		log.info("*** cancellazione studente in corso ***");
+		studenteservice.delete(id);
+		
+		
+		log.info("*** fine cancellazione studente ***");
+		return "redirect:/web/mostrastudenti";
+		
+	}
+	
 	
 }

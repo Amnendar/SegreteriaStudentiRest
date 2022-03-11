@@ -4,13 +4,13 @@
 <meta charset="ISO-8859-1">
 <title>Informazioni Studenti</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="stylesheet" th:href="@{/css/universita.css}"/>
+<link rel="stylesheet" th:href="@{/css/universita.css}" />
 </head>
 <body>
 	<header>
 		<h1>Universita di Atlantide</h1>
 		<h2>Elenco studenti</h2>
-	
+
 	</header>
 	<table>
 
@@ -24,31 +24,36 @@
 				<th>Indirizzo</th>
 				<th>Citta</th>
 				<th>Email</th>
-				
+				<th>Corso</th>
+
 
 			</tr>
 
 		</thead>
 		<!-- th prende la collection e la cicla per tutti gli elementi, a runtime toglie i th: e mette i dati effettivi -->
 		<div th:each="s : ${studenti}">
-		<tbody>
-			<tr>
+			<tbody>
+				<tr>
 
-				<td th:text="${s.id}"></td>
-				<td th:text="${s.nome}"></td>
- 				<td th:text="${s.cognome}"></td> 
-				<td th:text="${s.indirizzo}"></td> 
-				<td th:text="${s.citta}"></td>
- 				<td th:text="${s.email}"></td> 
- 				<td th:text="${s.corsoDiLaurea.nome}"></td>
+					<td th:text="${s.id}"></td>
+					<td th:text="${s.nome}"></td>
+					<td th:text="${s.cognome}"></td>
+					<td th:text="${s.indirizzo}"></td>
+					<td th:text="${s.citta}"></td>
+					<td th:text="${s.email}"></td>
+					<td th:text="${s.corsoDiLaurea.nome}"></td>
+					<td><a
+						th:href="@{/web/mostraformaggiornastudente/{id}(id=${s.id})}">Aggiorna</a></td>
+					<td><a th:href="@{/web/eliminastudente/{id}(id=${s.id})}"
+						onclick="return confirm('Sei sicuro di voler eliminare questo elemento?')">Elimina</a></td>
 
 
-			</tr>
-		</tbody>
+				</tr>
+			</tbody>
 		</div>
 	</table>
-	
-	
+
+
 	<footer>
 		<p>Graphics powered by Simone Guidi &copy; 2022</p>
 	</footer>
